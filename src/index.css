@@ -1,0 +1,32 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  gap: 1rem;
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
